@@ -1,3 +1,16 @@
-nav {
-    font-family: Arial, Helvetica, sans-serif;
+.navbar {
+    /* background-color: rgba(48, 13, 93, 0.918); */
+    background-image: linear-gradient(to right, rgba(48, 13, 93, 0.918), rgb(37, 34, 48) );
+    /* color: rgb(96, 96, 204); */
+    /* align-items: end; */
+    justify-content: center;
+}
+
+div .nav-link {
+    color: white;
+}
+
+div .navbar-toggler  {
+    /* background-color: rgba(255, 255, 255, 0.76); */
+    background-color: rgb(134, 118, 155);
 }
