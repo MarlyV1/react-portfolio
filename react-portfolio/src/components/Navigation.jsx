@@ -1,3 +1,5 @@
+import '../assets/styles/Navigation.css';
+
 function Navigation() {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
