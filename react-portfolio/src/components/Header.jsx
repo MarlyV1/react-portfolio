@@ -3,7 +3,7 @@ import '../assets/styles/Header.css';
 function Header() {
     return (
         <header>
-            <h1>Marly's Portfolio</h1>
+            <h1 className='text-box'>Marly's Portfolio</h1>
         </header>
     );
 }
