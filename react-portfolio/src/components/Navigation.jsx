@@ -1,7 +1,9 @@
 import '../assets/styles/Navigation.css';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
     return (
+        <>
         <nav className="navStyle navbar navbar-expand-lg ">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#"></a>
@@ -10,14 +12,18 @@ function Navigation() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-link" aria-current="page" href="#">About Me</a>
-                        <a className="nav-link" href="#">Portfolio</a>
-                        <a className="nav-link" href="#">Contact</a>
-                        <a className="nav-link" href="#">Resume</a>
+                        <Link to='' className="nav-link" aria-current="page" href="#">About Me</Link>
+                        <Link to='' className="nav-link" href="#">Portfolio</Link>
+                        <Link to='' className="nav-link" href="#">Contact</Link>
+                        <Link to='' className="nav-link" href="#">Resume</Link>
+                        
                     </div>
                 </div>
             </div>
         </nav>
+
+
+        </>
     )
 }
 
