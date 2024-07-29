@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import About from './components/AboutMe';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <Navigation />
       <Header />
       <About />
+      <Portfolio />
+      
       
     </BrowserRouter>
   )
