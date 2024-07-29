@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from './components/Header';
 import Navigation from './components/Navigation';
+import About from './components/AboutMe';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       </Routes>
       <Navigation />
       <Header />
+      <About />
       
     </BrowserRouter>
   )
