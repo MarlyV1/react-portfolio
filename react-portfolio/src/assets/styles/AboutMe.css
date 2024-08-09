@@ -2,8 +2,8 @@ section {
     display: flex;
     flex-direction: column;
 
-    background-image: linear-gradient(to right, rgba(48, 13, 93, 0.918), rgb(37, 34, 48) );
-    color: white;
+background-color: rgb(37, 34, 48) ;
+    color: #ffffff;
     padding: 20px;
     /* margin: 10px ; */
     /* border-radius: 10px; */

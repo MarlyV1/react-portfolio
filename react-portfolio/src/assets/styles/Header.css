@@ -11,7 +11,7 @@ header {
     text-align: center;
     color: white;
     font-family: 'Allura';
-    border-bottom: 8px ridge white;
+    border-bottom: 8px ridge rgba(5, 2, 10, 0.918);
 }
 
 .text-box {

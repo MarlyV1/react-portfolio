@@ -1,0 +1,14 @@
+.card {
+   margin: 20px 50px; 
+}
+
+.card-body {
+    /* background-image: linear-gradient(to right, rgba(48, 13, 93, 0.918), rgb(37, 34, 48) ); */
+    color: white;
+}
+
+section {
+    background-color: rgb(37, 34, 48);
+    padding-top: 20px;
+
+}
