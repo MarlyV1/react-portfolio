@@ -3,7 +3,10 @@ import ProjectCards from "./Project";
 function Portfolio() {
     return (
         <>
-        <ProjectCards />
+        <section>
+            <h2 className="sectionHeading">Portfolio</h2>
+            <ProjectCards />
+        </section>
         </>
     )
 }

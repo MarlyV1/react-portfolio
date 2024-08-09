@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
 .card {
    margin: 20px 50px; 
 }
@@ -11,4 +13,13 @@ section {
     background-color: rgb(37, 34, 48);
     padding-top: 20px;
 
+}
+
+h2 {
+    font-family: 'Allura';
+    font-size: larger;
+}
+
+.sectionHeading {
+    font-size: 60px;
 }
