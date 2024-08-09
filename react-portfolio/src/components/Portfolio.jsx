@@ -1,7 +1,11 @@
-import '../assets/styles/Portfolio.css';
+import ProjectCards from "./Project";
 
 function Portfolio() {
-    return 
+    return (
+        <>
+        <ProjectCards />
+        </>
+    )
 }
 
 export default Portfolio;
