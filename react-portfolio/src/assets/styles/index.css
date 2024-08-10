@@ -5,4 +5,15 @@ body, html {
 body {
     /* background-image: url("../images/background.jpg");
     background-size: contain; */
+    background-color: rgb(37, 34, 48) ;
+    color: white;
+
+}
+
+h2 {
+    font-family: 'Allura';
+
+}
+.sectionHeading {
+    font-size: 60px;
 }

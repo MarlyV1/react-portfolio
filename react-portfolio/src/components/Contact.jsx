@@ -1,8 +1,11 @@
 import Form from 'react-bootstrap/Form';
+import '../assets/styles/Contact.css';
 
 function Contact() {
   return (
-    <Form className='contact'>
+    <section>
+    <h2 className='sectionHeading'>Contact</h2>
+    <Form className='contactForm'>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="name@example.com" />
@@ -12,6 +15,7 @@ function Contact() {
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
     </Form>
+    </section>
   );
 }
 

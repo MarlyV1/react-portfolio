@@ -1,0 +1,8 @@
+.contactForm  {
+    margin: 50px 200px;
+    padding: 50px;
+    text-align: center;
+    font-size: large;
+    box-shadow: 0 0 50px rgb(158, 84, 255);
+    border-radius: 10px;
+}
