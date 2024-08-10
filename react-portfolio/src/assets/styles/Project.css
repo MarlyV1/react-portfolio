@@ -23,3 +23,15 @@ h2 {
 .sectionHeading {
     font-size: 60px;
 }
+
+.projectCards {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-left: 20px; */
+}
+
+.card {
+    box-shadow: 0 0 50px rgba(158, 84, 255, 0.616);
+}
