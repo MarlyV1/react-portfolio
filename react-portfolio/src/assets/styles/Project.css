@@ -35,3 +35,7 @@ h2 {
 .card {
     box-shadow: 0 0 50px rgba(158, 84, 255, 0.616);
 }
+
+.card:hover {
+    
+}

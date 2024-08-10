@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import About from './components/AboutMe';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <About />
       <Portfolio />
+      <Contact />
       
       
     </BrowserRouter>
