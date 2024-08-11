@@ -1,3 +1,4 @@
+import {Link } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
@@ -68,10 +69,15 @@ function ProjectCards() {
           {projectInfo.map((project) => (
             <Card className='card' key={project.id} style={{ width: '32rem' }}>
               <Card.Img variant="top" src={project.image} />
-              <Card.Body>
+              <Card.Body >
                 <Card.Title>{project.title}</Card.Title>
                 
-                <Button variant="primary">Go somewhere</Button>
+                <Link to={project.deployedApp}>
+                <Button>Deployed App</Button>
+                </Link>
+                <Link to={project.repo}>
+                <Button className="card-btn" btn>Repository</Button>
+                </Link>
               </Card.Body>
             </Card>
           ))}
