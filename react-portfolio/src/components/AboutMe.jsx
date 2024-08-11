@@ -7,7 +7,8 @@ function About() {
             <h2 className='sectionHeading'>About Me</h2>
             <div className='aboutMeSection'>
             <img className='avatar' src={avatar} alt="" />
-            <p className='aboutMeText'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sed tenetur vel neque perspiciatis esse, quia animi, velit eligendi ex facere laboriosam quos vitae nisi architecto rem, quaerat qui exercitationem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam omnis qui, maiores quam in perspiciatis tempora esse placeat praesentium dolore ab sed aliquam velit fugit nulla mollitia magnam iusto nisi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit accusantium nisi natus aliquid quia ab, incidunt harum a ipsa dolore illum blanditiis saepe maiores culpa! Qui ad quas inventore repellat?</p>
+            <p className='aboutMeText'>My name is Anne Marly Valcin, but I prefer to be called Marly.  Fun fact, Marly is the second half of my first name and not a middle name. I was born in Haiti, but came to the US when I was five years old. I'm now currently based in Orlando, FL and previously graduated from UCF with a degree in Biomedical Science. After graduation I wanted to try coding since that has been an interest of mine for the longest time. And one day I thought to my self "why not learn to code now." So, I took the opportunity and got myself enrolled into a coding bootcamp, and the best part was that it was being offered by UCF. And now my developer journey is just beginning.
+            </p>
             </div>
         </section>
     )
