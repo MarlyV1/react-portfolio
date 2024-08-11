@@ -12,9 +12,9 @@ function Navigation() {
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <Link to="about" className="nav-link" aria-current="page" >About Me</Link>
-                            <Link to='portfolio' className="nav-link" href="#about">Portfolio</Link>
-                            <Link to='contact' className="nav-link" href="#">Contact</Link>
+                            <Link to="/about" className="nav-link" aria-current="page" >About Me</Link>
+                            <Link to='/portfolio' className="nav-link" href="#about">Portfolio</Link>
+                            <Link to='/contact' className="nav-link" href="#">Contact</Link>
                             <Link to='' className="nav-link" href="#">Resume</Link>
                         </div>
                     </div>

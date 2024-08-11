@@ -17,3 +17,16 @@ h2 {
 .sectionHeading {
     font-size: 60px;
 }
+
+footer {
+    
+    margin-left: 43%;
+    padding-bottom: 30px;
+}
+
+footer a {
+    justify-content: space-between;
+    padding: 20px 30px 20px 0px;
+    color: rgba(48, 13, 93, 0.918);
+
+}
