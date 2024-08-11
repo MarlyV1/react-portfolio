@@ -1,10 +1,15 @@
 import '../assets/styles/Header.css';
+import Navigation from './Navigation';
 
 function Header() {
     return (
-        <header>
-            <h1 className='text-box'>Marly's Portfolio</h1>
-        </header>
+        <>
+            <Navigation />
+            <header>
+                <h1 className='text-box'>Marly's Portfolio</h1>
+            </header>
+
+        </>
     );
 }
 

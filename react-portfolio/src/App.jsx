@@ -3,7 +3,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Header from './components/Header';
-import Navigation from './components/Navigation';
 import About from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -13,15 +12,14 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path=''/>
+        <Route path='/' element={<Header />}/>
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Navigation />
-      <Header />
-      <About />
-      <Portfolio />
-      <Contact />
       
-      
+
+
     </BrowserRouter>
   )
 }
