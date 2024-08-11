@@ -1,8 +1,11 @@
 import '../assets/styles/AboutMe.css';
 import avatar from '../assets/images/avatar.jpg'
+import Header from './Header';
 
 function About() {
     return(
+        <>
+        <Header />
         <section>
             <h2 className='sectionHeading'>About Me</h2>
             <div className='aboutMeSection'>
@@ -11,6 +14,7 @@ function About() {
             </p>
             </div>
         </section>
+        </>
     )
 }
 

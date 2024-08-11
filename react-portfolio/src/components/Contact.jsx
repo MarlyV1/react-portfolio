@@ -1,9 +1,12 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import '../assets/styles/Contact.css';
+import Header from './Header';
 
 function Contact() {
     return (
+        <>
+        <Header />
         <section>
             <h2 className='sectionHeading'>Contact</h2>
             <Form className='contactForm'>
@@ -22,6 +25,7 @@ function Contact() {
                 <Button type="submit">Submit</Button>
             </Form>
         </section>
+        </>
     );
 }
 
